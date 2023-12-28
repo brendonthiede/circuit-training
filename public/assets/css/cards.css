@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05) rotate(1deg);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+@media print {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+}
