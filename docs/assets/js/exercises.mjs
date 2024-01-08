@@ -83,5 +83,10 @@ export const exercises = [
         'title': 'Star Jumps',
         'image': 'bicycle.png',
         'category': 'Cardio'
+    },
+    {
+        'title': 'Rest',
+        'image': 'bicycle.png',
+        'category': 'Rest'
     }
 ];

@@ -1,4 +1,4 @@
-import {exercises} from './public/assets/js/exercises.mjs';
+import {exercises} from './docs/assets/js/exercises.mjs';
 import Table from 'cli-table';
 
 let command = 'help';
