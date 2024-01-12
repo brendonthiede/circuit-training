@@ -2,7 +2,7 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import os
 
 if __name__ == '__main__':
-    directory = 'public'
+    directory = 'docs'
     server_address = ('', 8000)
     httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
 
